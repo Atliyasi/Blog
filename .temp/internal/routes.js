@@ -9,22 +9,6 @@ import GlobalLayout from "E:\\个人博客\\web\\node_modules\\@vuepress\\core\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-a9fe1212",
-    path: "/pages/ba1743/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a9fe1212").then(next)
-    },
-  },
-  {
-    path: "/pages/ba1743/index.html",
-    redirect: "/pages/ba1743/"
-  },
-  {
-    path: "/01.开始/01.博客搭建/01.技术选型.html",
-    redirect: "/pages/ba1743/"
-  },
-  {
     name: "v-1cf8868e",
     path: "/pages/d62d1f/",
     component: GlobalLayout,
@@ -41,132 +25,20 @@ export const routes = [
     redirect: "/pages/d62d1f/"
   },
   {
-    name: "v-144bab98",
-    path: "/friends/",
+    name: "v-a9fe1212",
+    path: "/pages/ba1743/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-144bab98").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a9fe1212").then(next)
     },
   },
   {
-    path: "/friends/index.html",
-    redirect: "/friends/"
+    path: "/pages/ba1743/index.html",
+    redirect: "/pages/ba1743/"
   },
   {
-    path: "/02.友链/01.友链.html",
-    redirect: "/friends/"
-  },
-  {
-    name: "v-492be53d",
-    path: "/pages/1be984/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-492be53d").then(next)
-    },
-  },
-  {
-    path: "/pages/1be984/index.html",
-    redirect: "/pages/1be984/"
-  },
-  {
-    path: "/01.开始/01.博客搭建/03.Docker部署Artalk.html",
-    redirect: "/pages/1be984/"
-  },
-  {
-    name: "v-7c921567",
-    path: "/pages/e01108/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7c921567").then(next)
-    },
-  },
-  {
-    path: "/pages/e01108/index.html",
-    redirect: "/pages/e01108/"
-  },
-  {
-    path: "/01.开始/",
-    redirect: "/pages/e01108/"
-  },
-  {
-    name: "v-fb5890ee",
-    path: "/pages/a39425/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-fb5890ee").then(next)
-    },
-  },
-  {
-    path: "/pages/a39425/index.html",
-    redirect: "/pages/a39425/"
-  },
-  {
-    path: "/03.博客/01.Redis/01.Redis学习.html",
-    redirect: "/pages/a39425/"
-  },
-  {
-    name: "v-b409a96e",
-    path: "/pages/1f1321/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b409a96e").then(next)
-    },
-  },
-  {
-    path: "/pages/1f1321/index.html",
-    redirect: "/pages/1f1321/"
-  },
-  {
-    path: "/03.博客/02.Docker/02.Docker安装redis.html",
-    redirect: "/pages/1f1321/"
-  },
-  {
-    name: "v-4bd71421",
-    path: "/pages/40549b/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4bd71421").then(next)
-    },
-  },
-  {
-    path: "/pages/40549b/index.html",
-    redirect: "/pages/40549b/"
-  },
-  {
-    path: "/03.博客/02.Docker/04.Docker中centos8安装mysql.html",
-    redirect: "/pages/40549b/"
-  },
-  {
-    name: "v-f7999330",
-    path: "/pages/ee1167/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f7999330").then(next)
-    },
-  },
-  {
-    path: "/pages/ee1167/index.html",
-    redirect: "/pages/ee1167/"
-  },
-  {
-    path: "/03.博客/02.Docker/03.Docker上安装Hadoop.html",
-    redirect: "/pages/ee1167/"
-  },
-  {
-    name: "v-29d5499c",
-    path: "/pages/cc6154/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-29d5499c").then(next)
-    },
-  },
-  {
-    path: "/pages/cc6154/index.html",
-    redirect: "/pages/cc6154/"
-  },
-  {
-    path: "/03.博客/03.小技巧/01.在SpringBoot中导入本地Maven Jar包.html",
-    redirect: "/pages/cc6154/"
+    path: "/01.开始/01.博客搭建/01.技术选型.html",
+    redirect: "/pages/ba1743/"
   },
   {
     name: "v-06401ab0",
@@ -185,6 +57,70 @@ export const routes = [
     redirect: "/pages/45d0d1/"
   },
   {
+    name: "v-492be53d",
+    path: "/pages/1be984/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-492be53d").then(next)
+    },
+  },
+  {
+    path: "/pages/1be984/index.html",
+    redirect: "/pages/1be984/"
+  },
+  {
+    path: "/01.开始/01.博客搭建/03.Docker部署Artalk.html",
+    redirect: "/pages/1be984/"
+  },
+  {
+    name: "v-b409a96e",
+    path: "/pages/1f1321/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b409a96e").then(next)
+    },
+  },
+  {
+    path: "/pages/1f1321/index.html",
+    redirect: "/pages/1f1321/"
+  },
+  {
+    path: "/03.博客/02.Docker/02.Docker安装redis.html",
+    redirect: "/pages/1f1321/"
+  },
+  {
+    name: "v-144bab98",
+    path: "/friends/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-144bab98").then(next)
+    },
+  },
+  {
+    path: "/friends/index.html",
+    redirect: "/friends/"
+  },
+  {
+    path: "/02.友链/01.友链.html",
+    redirect: "/friends/"
+  },
+  {
+    name: "v-7c921567",
+    path: "/pages/e01108/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7c921567").then(next)
+    },
+  },
+  {
+    path: "/pages/e01108/index.html",
+    redirect: "/pages/e01108/"
+  },
+  {
+    path: "/01.开始/",
+    redirect: "/pages/e01108/"
+  },
+  {
     name: "v-60b9ad8b",
     path: "/pages/44d4dc/",
     component: GlobalLayout,
@@ -201,68 +137,36 @@ export const routes = [
     redirect: "/pages/44d4dc/"
   },
   {
-    name: "v-294729b4",
-    path: "/pages/b11af4/",
+    name: "v-4bd71421",
+    path: "/pages/40549b/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-294729b4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4bd71421").then(next)
     },
   },
   {
-    path: "/pages/b11af4/index.html",
-    redirect: "/pages/b11af4/"
+    path: "/pages/40549b/index.html",
+    redirect: "/pages/40549b/"
   },
   {
-    path: "/03.博客/04.重装系统恢复系列/01.重装系统后恢复nvm的版本控制.html",
-    redirect: "/pages/b11af4/"
+    path: "/03.博客/02.Docker/04.Docker中centos8安装mysql.html",
+    redirect: "/pages/40549b/"
   },
   {
-    name: "v-7cae6a7a",
-    path: "/pages/bd08a7/",
+    name: "v-fb5890ee",
+    path: "/pages/a39425/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7cae6a7a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-fb5890ee").then(next)
     },
   },
   {
-    path: "/pages/bd08a7/index.html",
-    redirect: "/pages/bd08a7/"
+    path: "/pages/a39425/index.html",
+    redirect: "/pages/a39425/"
   },
   {
-    path: "/03.博客/",
-    redirect: "/pages/bd08a7/"
-  },
-  {
-    name: "v-5bfcefa0",
-    path: "/pages/2efa15/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5bfcefa0").then(next)
-    },
-  },
-  {
-    path: "/pages/2efa15/index.html",
-    redirect: "/pages/2efa15/"
-  },
-  {
-    path: "/04.博主の秘密/01.云盘/01.基于Hadoop的数据共享云平台.html",
-    redirect: "/pages/2efa15/"
-  },
-  {
-    name: "v-21e595ca",
-    path: "/archives/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-21e595ca").then(next)
-    },
-  },
-  {
-    path: "/archives/index.html",
-    redirect: "/archives/"
-  },
-  {
-    path: "/@pages/archivesPage.html",
-    redirect: "/archives/"
+    path: "/03.博客/01.Redis/01.Redis学习.html",
+    redirect: "/pages/a39425/"
   },
   {
     name: "v-3c976750",
@@ -281,6 +185,98 @@ export const routes = [
     redirect: "/pages/5572a6/"
   },
   {
+    name: "v-29d5499c",
+    path: "/pages/cc6154/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-29d5499c").then(next)
+    },
+  },
+  {
+    path: "/pages/cc6154/index.html",
+    redirect: "/pages/cc6154/"
+  },
+  {
+    path: "/03.博客/03.小技巧/01.在SpringBoot中导入本地Maven Jar包.html",
+    redirect: "/pages/cc6154/"
+  },
+  {
+    name: "v-f7999330",
+    path: "/pages/ee1167/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f7999330").then(next)
+    },
+  },
+  {
+    path: "/pages/ee1167/index.html",
+    redirect: "/pages/ee1167/"
+  },
+  {
+    path: "/03.博客/02.Docker/03.Docker上安装Hadoop.html",
+    redirect: "/pages/ee1167/"
+  },
+  {
+    name: "v-5bfcefa0",
+    path: "/pages/2efa15/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5bfcefa0").then(next)
+    },
+  },
+  {
+    path: "/pages/2efa15/index.html",
+    redirect: "/pages/2efa15/"
+  },
+  {
+    path: "/04.博主の秘密/01.云盘/01.基于Hadoop的数据共享云平台.html",
+    redirect: "/pages/2efa15/"
+  },
+  {
+    name: "v-9435e294",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9435e294").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-294729b4",
+    path: "/pages/b11af4/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-294729b4").then(next)
+    },
+  },
+  {
+    path: "/pages/b11af4/index.html",
+    redirect: "/pages/b11af4/"
+  },
+  {
+    path: "/03.博客/04.重装系统恢复系列/01.重装系统后恢复nvm的版本控制.html",
+    redirect: "/pages/b11af4/"
+  },
+  {
+    name: "v-21e595ca",
+    path: "/archives/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-21e595ca").then(next)
+    },
+  },
+  {
+    path: "/archives/index.html",
+    redirect: "/archives/"
+  },
+  {
+    path: "/@pages/archivesPage.html",
+    redirect: "/archives/"
+  },
+  {
     name: "v-6468104a",
     path: "/tags/",
     component: GlobalLayout,
@@ -295,22 +291,6 @@ export const routes = [
   {
     path: "/@pages/tagsPage.html",
     redirect: "/tags/"
-  },
-  {
-    name: "v-0dc88b5d",
-    path: "/pages/1182f3/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0dc88b5d").then(next)
-    },
-  },
-  {
-    path: "/pages/1182f3/index.html",
-    redirect: "/pages/1182f3/"
-  },
-  {
-    path: "/04.博主の秘密/",
-    redirect: "/pages/1182f3/"
   },
   {
     name: "v-52b0e6aa",
@@ -329,16 +309,36 @@ export const routes = [
     redirect: "/categories/"
   },
   {
-    name: "v-9435e294",
-    path: "/",
+    name: "v-7cae6a7a",
+    path: "/pages/bd08a7/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9435e294").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7cae6a7a").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/pages/bd08a7/index.html",
+    redirect: "/pages/bd08a7/"
+  },
+  {
+    path: "/03.博客/",
+    redirect: "/pages/bd08a7/"
+  },
+  {
+    name: "v-0dc88b5d",
+    path: "/pages/1182f3/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0dc88b5d").then(next)
+    },
+  },
+  {
+    path: "/pages/1182f3/index.html",
+    redirect: "/pages/1182f3/"
+  },
+  {
+    path: "/04.博主の秘密/",
+    redirect: "/pages/1182f3/"
   },
   {
     path: '*',
